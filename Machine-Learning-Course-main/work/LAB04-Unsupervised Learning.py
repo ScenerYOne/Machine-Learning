@@ -9,7 +9,7 @@ df = pd.read_csv('data/Air_Traffic_Passenger_Statistics.csv')
 print(df.head().to_string())
 print()
 
-# Check data description
+# Check data_lab description
 print(df.describe(include='all').to_string())
 print()
 
@@ -92,7 +92,7 @@ from sklearn.decomposition import PCA
 pca = PCA(n_components=2)
 df_pca = pca.fit_transform(df_scaled)
 
-# Visualize the data using scatter plot
+# Visualize the data_lab using scatter plot
 plt.scatter(df_pca[:, 0], df_pca[:, 1])
 plt.xlabel('Principal Component 1')
 plt.ylabel('Principal Component 2')

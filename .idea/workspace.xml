@@ -1,8 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bddd83c2-35cc-4c40-9b98-d9751839a5c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Machine Learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/Wine Type predicting.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/Wine_Dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB01-Warm up with Numpy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB01-Warm up with Numpy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB01-Warm up with Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB01-Warm up with Pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB02-Preprocessing 1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB02-Preprocessing 1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB02-Preprocessing 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB02-Preprocessing 2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB03-Supervised Learning 1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB03-Supervised Learning 1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB03-Supervised Learning 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB03-Supervised Learning 2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB03-Supervised Learning 3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB03-Supervised Learning 3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB04-Unsupervised Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB04-Unsupervised Learning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB06-Hyperparameter Tuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB06-Hyperparameter Tuning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB06-Model Evaluation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB06-Model Evaluation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/LAB07-Model Deployment.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/Lab/LAB07-Model Deployment.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/Air_Traffic_Passenger_Statistics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/Air_Traffic_Passenger_Statistics.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/Iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/Iris.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/car_evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/car_evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/diabetes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/diabetes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/emails.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/emails.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/loan_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/loan_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/movies_metadata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/movies_metadata.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/patient_diagnosis.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/patient_diagnosis.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/prep-data-lab03.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/prep-data-lab03.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/prep-data01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/prep-data01.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/prep-data02.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/prep-data02.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/prep-data03.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/prep-data03.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/prep-data04.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/prep-data04.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/ratings_small.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/ratings_small.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/test" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/test.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/tiktok_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/tiktok_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/data/wine-clustering.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/data_lab/wine-clustering.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/work/LAB04-Unsupervised Learning-1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/work/LAB04-Unsupervised Learning-1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/work/LAB04-Unsupervised Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/work/LAB04-Unsupervised Learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/work/lab02-02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/work/lab02-02.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ScenerYOne&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ScenerYOne/Machine-Learning.git&quot;,
+    &quot;accountId&quot;: &quot;6df0db64-d5a5-4ac5-9036-27241585e55f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lxPzwVbxw9gUkBHrwQIPz76tq8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{}</component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Machine Learning/Machine-Learning-Course-main/Lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Machine Learning\Machine-Learning-Course-main\Lab" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Machine Learning\Machine-Learning-Course-main\ML-Based Wine Type Predicting and Classifying Wine Varieties" />
+      <recent name="D:\Machine Learning\Machine-Learning-Course-main" />
+      <recent name="D:\Machine Learning\Machine-Learning-Course-main\Lab" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bddd83c2-35cc-4c40-9b98-d9751839a5c6" name="Changes" comment="" />
+      <created>1726119019577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726119019577</updated>
+      <workItem from="1726119020735" duration="6688000" />
+      <workItem from="1726125931879" duration="6687000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Machine_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1726131894507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app" />
+  </component>
 </project>
