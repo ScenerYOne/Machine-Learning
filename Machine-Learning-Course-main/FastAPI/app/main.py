@@ -24,15 +24,18 @@ async def get_prediction(Malic_acid: float, Ash: float, Alcalinity_of_ash: float
                          Total_phenols: float, Flavanoids: float, Nonflavanoid_phenols: float,
                          Proanthocyanins: float, Color_intensity: float, OD280: float, OD31: float,
                          Proline: float):
-    # โหลดโมเดลที่ดีที่สุด
-    model = load('D:/Machine Learning/Machine-Learning-Course-main/ML-Based Wine Type/Models/best_model.pkl')
-
-    # โหลดคอลัมน์จากไฟล์ columns.pkl
-    columns = load('D:/Machine Learning/Machine-Learning-Course-main/ML-Based Wine Type/Models/columns.pkl')
-
     # ข้อมูลฟีเจอร์ที่ได้รับจากผู้ใช้
     conditions = [Malic_acid, Ash, Alcalinity_of_ash, Magnesium, Total_phenols, Flavanoids, Nonflavanoid_phenols,
                   Proanthocyanins, Color_intensity, OD280, OD31, Proline]
+
+    # พิมพ์ข้อมูลที่ส่งเข้ามาเพื่อทำนาย
+    print(f"Data for prediction: {conditions}")
+
+    # โหลดโมเดลที่ดีที่สุด
+    model = load('D:/Machine Learning/Machine-Learning-Course-main/ML-Based Wine Type/Machine-Learning-Course-main/ML-Based Wine Type/models/best_model.pkl')
+
+    # โหลดคอลัมน์จากไฟล์ columns.pkl
+    columns = load('D:/Machine Learning/Machine-Learning-Course-main/ML-Based Wine Type/Machine-Learning-Course-main/ML-Based Wine Type/models/columns.pkl')
 
     # ตรวจสอบว่าจำนวนฟีเจอร์ที่ส่งมาและจำนวนคอลัมน์ตรงกันหรือไม่
     if len(conditions) != len(columns):
@@ -45,12 +48,17 @@ async def get_prediction(Malic_acid: float, Ash: float, Alcalinity_of_ash: float
         data.append(conditions[i])
 
     # ทำนายผลลัพธ์
-    prediction = model.predict([data]).tolist()
+    prediction = model.predict([conditions]).tolist()
 
-    # แปลงผลลัพธ์ให้อยู่ในรูปแบบ
-    result = f"มีแอลกอฮอล์(เอทานอลซึ่งส่งผลต่อร่างกาย): {prediction[0]}"
-
+    # แสดงผลลัพธ์เฉพาะปริมาณแอลกอฮอล์ที่ทำนายได้
+    result = f"ไวน์นี้มีแอลกอฮอล์ชนิดที่ {prediction[0]}"
+    print(result)
     return {"prediction": result}
+
+
+
+
+
 
 
 
