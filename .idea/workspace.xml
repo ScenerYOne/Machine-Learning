@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bddd83c2-35cc-4c40-9b98-d9751839a5c6" name="Changes" comment="ื">
+      <change afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/no ph/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wine_Type_predicting.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Air_Traffic_Passenger_Statistics/Air_Traffic_Trend_Analysis_and_Prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Air_Traffic_Passenger_Statistics/Air_Traffic_Trend_Analysis_and_Prediction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/Wine Type predicting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/no ph/Wine Type predicting.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -79,11 +84,11 @@
       <recent name="D:\Machine Learning\Machine-Learning-Course-main\Lab" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Machine Learning\Air_Traffic_Passenger_Statistics" />
       <recent name="D:\Machine Learning" />
-      <recent name="D:\Machine Learning\Machine-Learning-Course-main\ML-Based Wine Type Predicting and Classifying Wine Varieties" />
-      <recent name="D:\Machine Learning\Machine-Learning-Course-main" />
-      <recent name="D:\Machine Learning\Machine-Learning-Course-main\Lab" />
+      <recent name="D:\Machine Learning\Machine-Learning-Course-main\ML-Based Wine Type\no ph" />
+      <recent name="D:\Machine Learning\Machine-Learning-Course-main\ML-Based Wine Type" />
+      <recent name="D:\Machine Learning\Machine-Learning-Course-main\FastAPI\app" />
+      <recent name="D:\Machine Learning\Air_Traffic_Passenger_Statistics" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -106,7 +111,12 @@
       <workItem from="1726125931879" duration="10740000" />
       <workItem from="1726138610129" duration="8404000" />
       <workItem from="1726250727028" duration="41000" />
-      <workItem from="1726250780452" duration="6434000" />
+      <workItem from="1726250780452" duration="6449000" />
+      <workItem from="1726297929468" duration="6655000" />
+      <workItem from="1726323730726" duration="985000" />
+      <workItem from="1726324729829" duration="10000" />
+      <workItem from="1726325238420" duration="500000" />
+      <workItem from="1726325821567" duration="3544000" />
     </task>
     <task id="LOCAL-00001" summary="ื">
       <option name="closed" value="true" />
@@ -124,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726257102037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ื">
+      <option name="closed" value="true" />
+      <created>1726257254809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726257254809</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +176,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Machine_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1726255404305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$app.coverage" NAME="app Coverage Results" MODIFIED="1726322211951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1726328478277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

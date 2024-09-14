@@ -33,11 +33,11 @@ async def get_prediction(Malic_acid: float, Ash: float, Alcalinity_of_ash: float
 
     # โหลดโมเดลที่ดีที่สุด
     model = load(
-        'D:/Machine Learning/Machine-Learning-Course-main/ML-Based Wine Type/Machine-Learning-Course-main/ML-Based Wine Type/models/best_model.pkl')
+        '/Machine-Learning-Course-main/ML-Based Wine Type/Machine-Learning-Course-main/ML-Based Wine Type/models/best_model.pkl')
 
     # โหลดคอลัมน์จากไฟล์ columns.pkl
     columns = load(
-        'D:/Machine Learning/Machine-Learning-Course-main/ML-Based Wine Type/Machine-Learning-Course-main/ML-Based Wine Type/models/columns.pkl')
+        '/Machine-Learning-Course-main/ML-Based Wine Type/Machine-Learning-Course-main/ML-Based Wine Type/models/columns.pkl')
 
     # ตรวจสอบว่าจำนวนฟีเจอร์ที่ส่งมาและจำนวนคอลัมน์ตรงกันหรือไม่
     if len(conditions) != len(columns):
