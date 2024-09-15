@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bddd83c2-35cc-4c40-9b98-d9751839a5c6" name="Changes" comment="ื">
-      <change afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/no ph/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wine_Type_predicting.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/Wine Type predicting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine-Learning-Course-main/ML-Based Wine Type/no ph/Wine Type predicting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wine_Type_predicting/Wine_Type_predicting.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Wine_Type_predicting.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wine_Type_predicting/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,10 +82,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Machine Learning" />
+      <recent name="D:\Machine Learning\Wine_Type_predicting" />
       <recent name="D:\Machine Learning\Machine-Learning-Course-main\ML-Based Wine Type\no ph" />
       <recent name="D:\Machine Learning\Machine-Learning-Course-main\ML-Based Wine Type" />
       <recent name="D:\Machine Learning\Machine-Learning-Course-main\FastAPI\app" />
-      <recent name="D:\Machine Learning\Air_Traffic_Passenger_Statistics" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -116,7 +113,8 @@
       <workItem from="1726323730726" duration="985000" />
       <workItem from="1726324729829" duration="10000" />
       <workItem from="1726325238420" duration="500000" />
-      <workItem from="1726325821567" duration="3544000" />
+      <workItem from="1726325821567" duration="3920000" />
+      <workItem from="1726378743515" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="ื">
       <option name="closed" value="true" />
@@ -142,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726257254809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ื">
+      <option name="closed" value="true" />
+      <created>1726329478941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726329478941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +183,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Machine_Learning$app.coverage" NAME="app Coverage Results" MODIFIED="1726322211951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine-Learning-Course-main/FastAPI/app" />
-    <SUITE FILE_PATH="coverage/Machine_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1726328478277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1726380029124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
