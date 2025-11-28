@@ -1,31 +1,28 @@
-# 🥗 AppTestModel - Hydroponic Vegetable Detection
+# 🍷 Wine Analysis & Quality Prediction API
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95-009688?logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLO-Ultralytics-blueviolet)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 
-A web-based tool for testing YOLO models specifically designed for **hydroponic vegetable** images.
-**AppTestModel** allows users to upload a custom `.pt` model file and test images to instantly visualize detection results with bounding boxes and class names directly in the browser.
+A machine learning project designed to analyze wine chemical properties, classify wine varieties, and provide quality assessments via a REST API.
+**Wine Analysis** allows users to evaluate wine characteristics (specifically pH levels) against standard oenological rules to ensure quality and consistency.
 
 ## ✨ Features
 
-- **Model Upload:** Upload your custom trained YOLO (`.pt`) model via the web interface.
-- **Instant Inference:** Upload an image and get detection results immediately.
-- **Visual Feedback:** Displays the processed image with drawn bounding boxes, confidence scores, and class labels.
-- **FastAPI Backend:** High-performance backend for efficient model handling and image processing.
-- **React Frontend:** Clean, responsive, and user-friendly interface.
+- **Data Analysis:** Comprehensive EDA pipeline including outlier detection (IQR) and feature correlation analysis.
+- **Machine Learning:** Comparative training of multiple models (Logistic Regression, SVM, KNN) with **Random Forest** achieving the best results.
+- **Data Preprocessing:** Implements SMOTE for class balancing and StandardScaler for normalization.
+- **FastAPI Backend:** A lightweight, fast API to serve predictions and evaluate wine quality rules in real-time.
+- **Rule-Based Logic:** Automatic verification of pH suitability for Red and White wines.
 
 ## 📂 Project Structure
 
 ```text
-AppTestModel/
-├── uploaded_models/      # Storage for uploaded .pt models
-├── server.py             # Backend entry point (FastAPI + Ultralytics)
-├── app_testmodel/        # Frontend source code (React + Vite)
-│   ├── src/
-│   │   ├── App.jsx       # Main application logic
-│   │   └── App.css       # Styling
-│   ├── vite.config.js
-│   └── package.json
+Wine-Project/
+├── Wine Type predicting.ipynb   # Data Science Pipeline (EDA, Training, Evaluation)
+├── main.py                      # FastAPI Server Entry Point
+├── Wine_Dataset.csv             # Source Dataset
+├── wine_quality_model.pkl       # Trained Model Artifact
+├── best_model.pkl               # Best performing model from GridSearch
 └── README.md
